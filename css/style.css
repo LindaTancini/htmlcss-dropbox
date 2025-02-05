@@ -89,12 +89,14 @@
   }
 
   .colonne {
+    display: flex;
     width: calc((100% - 20px) /3 );
     border: 1px solid black;
     padding: 20px;
     background: white;
     border-radius: 10px;
     flex-direction: column;
+    flex-shrink: 0;
   }
 
   .enterprise {
@@ -113,4 +115,23 @@
     background-color: firebrick;
     height: 300px;
     flex-grow: 1;
+  }
+
+  .container-colonne-two {
+    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+  }
+
+  .colonne-two {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 40px) / 3);
+    flex-shrink: 0;
+    border: 1px solid black;
+    background: white ;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
   }
