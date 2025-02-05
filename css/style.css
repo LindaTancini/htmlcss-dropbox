@@ -5,3 +5,34 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .debug {
+    height: 300px;
+  }
+
+
+  /* HEADER */
+
+ #nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 100%;
+    background-color: blueviolet;
+  }
+
+  .main-menu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .second-menu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .logo {
+    display: flex;
+    height: 30px;
+  }
