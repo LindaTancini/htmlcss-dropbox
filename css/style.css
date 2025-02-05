@@ -24,6 +24,9 @@
     background-color: orange;
  }
 
+ .bg-grey {
+    background-color: grey;
+ }
 
 
   /* HEADER */
@@ -75,6 +78,8 @@
 .container-small {
     display: flex;
     justify-content: center;
+    width: 1030px;
+    margin: 0 auto;
 }
 
 .jumbo {
@@ -96,4 +101,16 @@
     flex-basis: 700px;
     height: 300px;
     background-color: aqua;
+  }
+
+  .partner-big {
+    background-color: darkolivegreen;
+    height: 300px;
+    flex-grow: 2;
+  }
+
+  .partner-small {
+    background-color: firebrick;
+    height: 300px;
+    flex-grow: 1;
   }
