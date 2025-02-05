@@ -65,6 +65,7 @@
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
+    align-items: stretch;
 }
 
 .container-small {
@@ -79,9 +80,10 @@
   }
 
   .colonne {
-    width: calc(100% / 3 - 20px);
-    border: 1px solid #ddd;
+    width: calc((100% - 20px) /3 );
+    border: 1px solid black;
     padding: 20px;
     background: white;
     border-radius: 10px;
+    flex-direction: column;
   }
