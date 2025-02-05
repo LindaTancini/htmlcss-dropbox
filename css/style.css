@@ -20,6 +20,10 @@
     background-color: green;
  }
 
+ .bg-orange {
+    background-color: orange;
+ }
+
 
 
   /* HEADER */
@@ -86,4 +90,10 @@
     background: white;
     border-radius: 10px;
     flex-direction: column;
+  }
+
+  .enterprise {
+    flex-basis: 700px;
+    height: 300px;
+    background-color: aqua;
   }
