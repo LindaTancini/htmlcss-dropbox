@@ -54,6 +54,10 @@
   height: 30px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* MAIN */
 
 main > section {
@@ -160,14 +164,22 @@ footer {
 
 .informative {
   display: flex;
-  background-color: lightcoral;
   flex-grow: 2;
   flex-direction: row;
+  margin: 50px;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .micro-layout {
-  border: 2px dashed #ffffff;
+  color: #ffffff;
   flex-grow: 1;
+  line-height: 30px;
+  margin-left: 30px;
+  font-size: 12px;
 }
 
 .italian-world {
