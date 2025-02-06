@@ -49,6 +49,11 @@ img {
   margin: 0 auto;
 }
 
+.mtb-80 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 /* HEADER */
 
 header nav {
@@ -62,7 +67,6 @@ header nav {
   width: 100%;
   z-index: 3;
   background-color: #ffffff;
-
 }
 
 header nav ul {
@@ -77,7 +81,6 @@ main > section {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
 /* JUMBOTRON */
 
@@ -110,8 +113,6 @@ main > section {
   margin-bottom: 15px;
 }
 
-
-
 /* COLONNA */
 
 .container-colonna {
@@ -123,7 +124,6 @@ main > section {
 .colonna {
   display: flex;
   width: calc((100% - 40px) / 3);
-  border: 1px solid black;
   padding: 20px;
   background: white;
   border-radius: 10px;
@@ -131,16 +131,33 @@ main > section {
   flex-shrink: 0;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vantaggi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .fullwidth {
   width: 100%;
+  border: 1px solid black;
 }
 
 .colonna h3 {
- text-align: center;
+  text-align: center;
 }
 
 .info {
   padding: 30px 0;
+}
+
+.border-col {
+  border: 1px solid black;
 }
 
 /* PARTNER SECTION */
@@ -155,6 +172,10 @@ main > section {
 
 .partner-text {
   width: 30%;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .btnwhite {
@@ -162,8 +183,6 @@ main > section {
   color: #000;
   border: 1px solid #000;
 }
-
-
 
 /* FOOTER */
 footer {
@@ -190,8 +209,8 @@ footer {
 }
 
 h5 {
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .micro-layout {
