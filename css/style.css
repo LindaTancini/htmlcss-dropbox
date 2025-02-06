@@ -83,7 +83,6 @@ main > section {
 
 /* JUMBOTRON */
 
-
 #jumbotron {
   background-color: #b4d0e6;
   margin-bottom: 140px;
@@ -107,33 +106,14 @@ main > section {
   right: 0;
 }
 
-
-
-
-
-
-
-
-
-
+/* COLONNE */
 
 .container-colonna {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
   padding: 20px;
-  align-items: stretch;
   flex-wrap: wrap;
 }
-
-.container-small {
-  display: flex;
-  justify-content: center;
-  width: 1030px;
-  margin: 0 auto;
-}
-
-
 
 .colonna {
   display: flex;
@@ -145,6 +125,30 @@ main > section {
   flex-direction: column;
   flex-shrink: 0;
 }
+
+.fullwidth {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.container-small {
+  display: flex;
+  justify-content: center;
+  width: 1030px;
+  margin: 0 auto;
+}
+
+
+
+
 
 
 .partner-big {
