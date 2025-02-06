@@ -91,6 +91,14 @@ header nav ul {
   align-items: center;
 }
 
+.hover-text {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.hover-text:hover {
+  text-decoration: underline;
+}
+
 /* MAIN */
 
 main > section {
