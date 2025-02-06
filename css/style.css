@@ -23,6 +23,13 @@ a {
   text-decoration: none;
 }
 
+.button {
+  display: inline-block;
+  background-color: #0061fe;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+
 
 /* bg color */
 
@@ -49,7 +56,6 @@ header nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: blueviolet;
 }
 
 header nav ul {
@@ -57,10 +63,6 @@ header nav ul {
   gap: 40px;
   align-items: center;
 }
-
-
-
-
 
 /* MAIN */
 
