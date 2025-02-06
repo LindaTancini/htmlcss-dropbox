@@ -44,18 +44,18 @@ img {
   margin: 0 auto;
 }
 
-/* bg color */
-.bg-green {
+.container-small {
+  width: 1030px;
+  margin: 0 auto;
   background-color: green;
 }
+
+/* bg color */
 
 .bg-orange {
   background-color: orange;
 }
 
-.bg-grey {
-  background-color: grey;
-}
 
 /* HEADER */
 
@@ -106,6 +106,14 @@ main > section {
   right: 0;
 }
 
+.btnprova {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+
 /* COLONNE */
 
 .container-colonna {
@@ -130,21 +138,22 @@ main > section {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-.container-small {
-  display: flex;
-  justify-content: center;
-  width: 1030px;
-  margin: 0 auto;
+.colonna h3 {
+ text-align: center;
 }
+
+.info {
+  padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
