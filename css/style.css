@@ -30,6 +30,9 @@ a {
   color: #ffffff;
 }
 
+.button:hover {
+  filter: brightness(1.4);
+}
 
 /* bg color */
 
@@ -56,6 +59,7 @@ header nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  box-shadow: 0 1px 3px 0 #ddd;
 }
 
 header nav ul {
