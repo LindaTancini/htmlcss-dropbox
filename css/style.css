@@ -114,7 +114,7 @@ main > section {
 
 
 
-/* COLONNE */
+/* PRIMA COLONNA */
 
 .container-colonna {
   display: flex;
@@ -145,31 +145,8 @@ main > section {
   padding: 30px 0;
 }
 
+/* COLONNA CON IMMAGINI */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.partner-big {
-  background-color: darkolivegreen;
-  height: 300px;
-  flex-grow: 2;
-}
-
-.partner-small {
-  background-color: firebrick;
-  height: 300px;
-  flex-grow: 1;
-}
 
 .container-colonne-two {
   display: flex;
@@ -189,6 +166,28 @@ main > section {
   border-radius: 8px;
   margin-bottom: 20px;
 }
+
+/* PARTNER SECTION */
+
+.partner {
+  display: flex;
+}
+
+.partner-img {
+  width: 50%;
+}
+
+.partner-text {
+  width: 30%;
+}
+
+.btnwhite {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+
 
 /* FOOTER */
 footer {
