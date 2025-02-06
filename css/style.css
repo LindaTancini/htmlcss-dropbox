@@ -124,7 +124,7 @@ main > section {
 
 .colonna {
   display: flex;
-  width: calc((100% - 20px) / 3);
+  width: calc((100% - 40px) / 3);
   border: 1px solid black;
   padding: 20px;
   background: white;
