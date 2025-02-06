@@ -10,6 +10,20 @@
   height: 300px;
 }
 
+body {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
 /* bg color */
 
 .bg-blue {
@@ -30,33 +44,23 @@
 
 /* HEADER */
 
-#nav-bar {
+header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 30px;
-  width: 100%;
+  padding: 20px;
   background-color: blueviolet;
 }
 
-.main-menu {
+header nav ul {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+  align-items: center;
 }
 
-.second-menu {
-  display: flex;
-  gap: 20px;
-}
 
-.logo {
-  display: flex;
-  height: 30px;
-}
 
-ul {
-    list-style-type: none;
-}
+
 
 /* MAIN */
 
@@ -70,12 +74,13 @@ main > section {
   justify-content: center;
 }
 
-.container-colonne {
+.container-colonna {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 20px;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .container-small {
@@ -91,7 +96,7 @@ main > section {
   background-color: #ee82ee;
 }
 
-.colonne {
+.colonna {
   display: flex;
   width: calc((100% - 20px) / 3);
   border: 1px solid black;
@@ -102,11 +107,6 @@ main > section {
   flex-shrink: 0;
 }
 
-.enterprise {
-  flex-basis: 700px;
-  height: 300px;
-  background-color: aqua;
-}
 
 .partner-big {
   background-color: darkolivegreen;
@@ -137,12 +137,6 @@ main > section {
   text-align: center;
   border-radius: 8px;
   margin-bottom: 20px;
-}
-
-.business {
-  flex-basis: 700px;
-  height: 300px;
-  background-color: aqua;
 }
 
 /* FOOTER */
