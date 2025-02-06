@@ -54,6 +54,22 @@ img {
   margin-bottom: 80px;
 }
 
+.business-plan{
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.billing {
+  margin: 50px;
+}
+
+.fa-check,
+.fa-circle-dot {
+  color: #2093fe;
+}
+
+
 /* HEADER */
 
 header nav {
@@ -119,6 +135,7 @@ main > section {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .colonna {
@@ -129,6 +146,13 @@ main > section {
   border-radius: 10px;
   flex-direction: column;
   flex-shrink: 0;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid #d0cfd4;
 }
 
 .info {
@@ -145,7 +169,7 @@ main > section {
 
 .fullwidth {
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #d0cfd4;
 }
 
 .colonna h3 {
@@ -156,8 +180,16 @@ main > section {
   padding: 30px 0;
 }
 
+.grey-text {
+  color: #d0cfd4;
+}
+
+.price {
+  font-weight: bold;
+}
+
 .border-col {
-  border: 1px solid black;
+  border: 1px solid #d0cfd4;
 }
 
 /* PARTNER SECTION */
