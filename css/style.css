@@ -47,15 +47,7 @@ img {
 .container-small {
   width: 1030px;
   margin: 0 auto;
-  background-color: green;
 }
-
-/* bg color */
-
-.bg-orange {
-  background-color: orange;
-}
-
 
 /* HEADER */
 
@@ -205,15 +197,14 @@ h5 {
 }
 
 .italian-world {
-  background-color: mediumpurple;
   width: 800px;
   margin: 30px auto 0 auto;
   display: flex;
   align-items: center;
+  color: #ffffff;
 }
 
 .world,
 .italian {
-  background-color:peru;
   padding: 4px;
 }
