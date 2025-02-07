@@ -178,6 +178,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: baseline;
 }
 
 .vantaggi {
@@ -212,11 +213,22 @@ h1 {
   border: 1px solid #d0cfd4;
 }
 
+
+hr {
+  width: 45px;
+  border: 0;
+  height: 1px;
+  background-color: #d0cfd4;
+}
+
+
 .btn-contact {
   position: absolute;
   right: 0;
   top: 1px;
 }
+
+
 
 .fullwidth h3 {
   border-bottom: 1px solid #d0cfd4;
